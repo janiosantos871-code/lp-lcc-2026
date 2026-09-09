@@ -1,0 +1,11 @@
+import javax.swing.*;
+
+
+public class Teste {
+    public static void main(String[] args) {
+        double peso = Double.parseDouble(JOptionPane.showInputDialog("Qual o seu peso? "));
+        double altura = Double.parseDouble(JOptionPane.showInputDialog("Qual a sua altura? "));
+        double imctotal = peso / (altura*altura);
+        System.out.println("Seu IMC é de " + imctotal);
+
+}}
